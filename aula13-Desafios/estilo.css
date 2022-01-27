@@ -10,6 +10,7 @@ body {
 header {
         color: white;
         text-align: center;
+        margin: 25px;
 }
 
 section {
@@ -22,11 +23,13 @@ section {
 }
 
 div {
-
+        text-align: center;
+        margin: 25px;
 }
 
 footer {
         color: white;
         text-align: center;
         font-style: italic;
+        margin: 10px;
 }
