@@ -6,7 +6,7 @@ function verificar() {
         if (fAno.value.length == 0 || Number(fAno.value) > ano ) {
                 window.alert('[ERRO] Verifique os dados e tente novamente.')
         }
-       else {
+        else {
         var fSex = document.getElementsByName('sexo')
         var idade = ano - Number(fAno.value)
         var genero = ' '
@@ -61,5 +61,5 @@ function verificar() {
         res.style.textAlign = 'center'
         res.innerHTML = `Detectamos ${genero} com ${idade} anos.`
         res.appendChild(img)
-       }
+        }
 }
