@@ -24,6 +24,10 @@ section {
     box-shadow: 3px 5px 15px black;
 }
 
+select#lista {
+    width: 150px;
+}
+
 #button1:hover, #button2:hover {
     cursor: pointer;
 }
